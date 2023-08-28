@@ -12,7 +12,7 @@ function App() {
 	}
 
 	return (
-		<main className="flex flex-col justify-center items-center gap-16 h-[100vh] bg-white">
+		<main className="flex flex-col justify-center items-center gap-16 h-[100vh] bg-[#10182d]">
 			<SearchBar onUserChange={handleUserChange} />
 			<ProfileCard userObj={user} />
 		</main>

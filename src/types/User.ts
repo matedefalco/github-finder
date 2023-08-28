@@ -1,5 +1,6 @@
 export type User = {
 	userName: string
+	bio?: string
 	profileImg?: string
 	joinedDate?: string
 	repoAmount?: number
